@@ -1,0 +1,70 @@
+h3{
+  color: #009bd1;
+}
+h5{
+  font-size: 14px;
+}
+.form-control{
+  padding:3px;
+  border-radius:0px;
+  color:#000;
+}
+.form_organization > .row > .col-md-6 > div{
+  margin-top: 10px;
+}
+.form_organization > .row > .col-md-5 > div{
+  margin-top: 10px;
+}
+.btn-group{
+  margin-top:30px;
+}
+.nav{
+  background: #f2fafc;
+  margin-bottom: 10px;
+}
+.nav > li > a{
+  padding: 15px 15px;
+}
+.nav > li > a:hover{
+  background-color: #f2fafc;
+}
+.nav > li > a > span > i{
+  color: #bbc0c3;
+}
+.nav > li > a > i{
+  color: #73c8e5;
+  padding-right: 10px;
+}
+.btn-group > button:first-child{
+  border-radius: 0px;
+  background: #fff;
+}
+.btn-group > button:last-child{
+  border-radius: 0px;
+  background: #019cdc;
+  border-color: #019cdc;
+}
+.data_organization > div > div:first-child{
+  width:185px;
+  height:40px;
+  line-height:40px;
+}
+.data_organization > div > div:last-child > hr{
+  border-color:#d9d9d9;
+}
+.row_menu{
+  margin-bottom: 20px;
+}
+.col_one_active{
+  border-top: 2px solid #009bd1;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+  height: 50px;
+  line-height: 50px;
+}
+.col_one_enable{
+  border-bottom: 1px solid #d9d9d9;
+  height: 50px;
+  line-height: 50px;
+  color: #009bd1;
+}
