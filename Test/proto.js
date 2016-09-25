@@ -7,7 +7,7 @@ String.prototype.do = function() {
 console.log("test".do());
 
 var Utils = function() {};
-Utils.prototype.extend = function(subClass, superClass) {
+Utils.prototype.extends = function(subClass, superClass) {
   subClass.prototype = Object.create(superClass.prototype);
   subClass.prototype.constructor = subClass;
 }
