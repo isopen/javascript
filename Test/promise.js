@@ -5,10 +5,10 @@ var arrow = require('./arrow');
 let promise = new Promise((resolve, reject) => {
   // pending
   setTimeout(() => {
-    reject(new Error("ошибка"));
+    reject(new Error("Ошибка"));
   }, 1000);
   setTimeout(() => {
-    resolve("успех");
+    resolve("Успех");
   }, 998);
 });
   
@@ -20,8 +20,9 @@ let func = () => {
       result => {
         let a = new arrow('JavaScript');
         a.show();
+        console.log(result)
       },
-      error => console.log('Ошибка')
+      error => console.log(error.message)
     );
 };
 
