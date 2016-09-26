@@ -1,16 +1,16 @@
 'use strict';
 
-function SimpleArrow() {
+var SimpleArrow = function(p) {
   this.spaces = '';
-  this.s = 'JavaScript'.split('');
-  var simple = () => {
+  this.s = p.split('');
+}
+
+SimpleArrow.prototype.show = function() {
     this.s.forEach((item) => {
       console.log(this.spaces + item);
       this.spaces += ' ';
     });
     return true;
-  };
-  simple();
 }
 
-var simpleArrow = new SimpleArrow();
+module.exports = SimpleArrow;
