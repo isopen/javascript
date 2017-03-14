@@ -17,7 +17,7 @@ do {
     if (arr[i]) break;
   }
   p = i;
-} while (p * p < 200);
+} while (p * p < n);
 
 var sum = 0;
 p = 1;
