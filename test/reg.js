@@ -5,7 +5,7 @@ var a = "hello hello hello      hello hellow привет привет прив�
 function removeRepeatedWords(s) {
   var lastWord = '';
   return s.replace(/([^\s]+)(\s|$)/g, function(all, w, e) {
-    return lastWord == w && !/[а-яА-ЯA-Z0-9]/gi.test(w) ? '' : (lastWord = w) + e;
+    return lastWord == w && !/[а-яА-ЯA-Z0-9]/g.test(w) ? '' : (lastWord = w) + e;
   }).replace(/\s+/g, " ");
 }
 
